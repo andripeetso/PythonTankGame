@@ -1,0 +1,15 @@
+tank_game/
+│
+├── main.py [X]
+├── tank.py [X]
+├── projectile.py [X]
+├── terrain.py [X]
+├── utils.py [X]
+└── assets/ [X]
+    ├── images/ [X]
+    │   ├── tank.png [X]
+    │   ├── projectile.png []
+    │   └── terrain.png []
+    └── sounds/ [X]
+        ├── explosion.wav [X]
+        └── background_music.mp3 [X]
