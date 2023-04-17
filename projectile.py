@@ -24,3 +24,6 @@ class Projectile:
     def out_of_bounds(self, width, height):
         if self.x < 0 or self.x > width or self.y < 0 or self.y > height:
             self.active = False
+            
+    def get_rect(self):
+        return self.image.get_rect(center=(self.x, self.y))
